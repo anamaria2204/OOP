@@ -1,0 +1,21 @@
+[2024-03-28 17:15:46] [info] Start Program:
+Path:"C:\Users\anama\source\repos\Farmacie-alocare-dinamica\x64\Debug\Farmacie-alocare-dinamica.exe"
+Arguments:
+Working directory: "C:\Users\anama\source\repos\Farmacie-alocare-dinamica\Farmacie-alocare-dinamica\"
+Modules: Selected: C:\Users\anama\source\repos\Farmacie-alocare-dinamica\x64\Debug\Farmacie-alocare-dinamica.exe Excluded: 
+Sources: Selected: C:\Users\anama\source\repos\Farmacie-alocare-dinamica\Farmacie-alocare-dinamica Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\anama\AppData\Local\Temp\quyc4hrg.qvk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2024-03-28 17:15:46] [info] Module: C:\Users\anama\source\repos\Farmacie-alocare-dinamica\x64\Debug\Farmacie-alocare-dinamica.exe is selected because it matches selected pattern: C:\Users\anama\source\repos\Farmacie-alocare-dinamica\x64\Debug\Farmacie-alocare-dinamica.exe
+[2024-03-28 17:15:47] [info] ----------------------------------------------------
+[2024-03-28 17:15:47] [info] Coverage binary generated in file: C:\Users\anama\AppData\Local\Temp\quyc4hrg.qvk
+[2024-03-28 17:15:47] [info] ----------------------------------------------------
