@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>domeniu.h</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Oferta::{ctor}</FUNCTION>
+    <DECORATED>??0Oferta@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>46</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>OfertaService::{ctor}</FUNCTION>
+    <DECORATED>??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::stergere</FUNCTION>
+    <DECORATED>?stergere@OfertaService@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::modificare</FUNCTION>
+    <DECORATED>?modificare@OfertaService@@QEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00M@Z</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6389</DEFECTCODE>
+    <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
+    <FUNCTION>__empty_global_delete</FUNCTION>
+    <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6389</DEFECTCODE>
+    <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
+    <FUNCTION>__empty_global_delete</FUNCTION>
+    <DECORATED>?__empty_global_delete@@YAXPEAX_K@Z</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
