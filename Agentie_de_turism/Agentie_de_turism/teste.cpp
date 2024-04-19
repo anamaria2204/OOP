@@ -25,15 +25,15 @@ void test_domeniu() {
 void test_cmp_denumire() {
 	Oferta o1{ "calatorie", "Maldive", "sejur", 2000 };
 	Oferta o2{ "vacanta", "Mamaia", "mare", 1500 };
-	assert(comp_denumire(o1, o2) == 1);
-	assert(comp_denumire(o2, o1) == 0);
+	assert(comp_denumire(o1, o2) == 0);
+	assert(comp_denumire(o2, o1) == 1);
 }
 
 void test_cmp_destinatie() {
 	Oferta o1{ "calatorie", "Maldive", "sejur", 2000 };
 	Oferta o2{ "vacanta", "Mamaia", "mare", 1500 };
-	assert(comp_destinatie(o1, o2) == 1);
-	assert(comp_destinatie(o2, o1) == 0);
+	assert(comp_destinatie(o1, o2) == 0);
+	assert(comp_destinatie(o2, o1) == 1);
 }
 
 
@@ -55,8 +55,9 @@ void test_validator() {
 void test_adauga_repo() {
 	OfertaRepo repo;
 	repo.store(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
+	auto ls = repo.getAll();
 
-	assert(repo.getAll().size() == 1);
+	assert(ls.getSize() == 1);
 	try {
 		repo.store(Oferta{ "calatorie", "Maldive", "vacanta", 2000 });
 		assert(false);
@@ -64,18 +65,18 @@ void test_adauga_repo() {
 	catch (const OfertaRepoException&) {
 		assert(true);
 	}
-	assert(repo.getAll().size() == 1);
+	assert(ls.getSize() == 1);
 
 }
 
 void test_sterge_repo() {
 	OfertaRepo repo;
 	repo.store(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
-	assert(repo.getAll().size() == 1);
-	repo.sterge(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
-	assert(repo.getAll().size() == 0);
+	assert(repo.getAll().getSize() == 1);
+	repo.sterge(0);
+	assert(repo.getAll().getSize() == 0);
 	try {
-		repo.sterge(Oferta{ "calatorie", "Maldive", "vacanta", 2000 });
+		repo.sterge(3);
 		assert(false);
 	}
 	catch (const OfertaRepoException&) {
@@ -87,7 +88,7 @@ void test_modifica_repo() {
 	OfertaRepo repo;
 	repo.store(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
 	repo.store(Oferta{ "vacanta", "Timisoara", "sejur", 1200 });
-	assert(repo.getAll().size() == 2);
+	assert(repo.getAll().getSize() == 2);
 	Oferta o{ "vacanta", "Timisoara", "sejur", 1200 };
 	repo.modifica(o, "calatorie", "Sibiu", "vacanta", 1000);
 	assert(repo.getAll()[1].get_denumire() == "calatorie");
@@ -104,7 +105,7 @@ void test_cauta_repo() {
 	OfertaRepo repo;
 	repo.store(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
 	repo.store(Oferta{ "vacanta", "Timisoara", "sejur", 1200 });
-	assert(repo.getAll().size() == 2);
+	assert(repo.getAll().getSize() == 2);
 	Oferta o1{ "vacanta", "Timisoara", "sejur", 1200 };
 	assert(repo.cauta("vacanta", "Timisoara") == o1);
 	try {
@@ -122,7 +123,7 @@ void test_adauga_service() {
 	OfertaValidator val;
 	OfertaService ctr{ rep,val };
 	ctr.adauga("calatorie", "Maldive", "vacanta", 2000);
-	assert(ctr.getAll().size() == 1);
+	assert(ctr.getAll().getSize() == 1);
 
 	//adaug ceva invalid
 	try {
@@ -150,7 +151,7 @@ void test_sterge_service() {
 	ctr.adauga("vacanta", "Mamaia", "sejur", 2100);
 
 	ctr.stergere(0);
-	assert(ctr.getAll().size() == 1);
+	assert(ctr.getAll().getSize() == 1);
 
 	try {
 		ctr.stergere(2);
@@ -205,9 +206,9 @@ void test_filtreaza_service() {
 	serv.adauga("vacanta", "Mamaia", "sejur", 1000);
 	serv.adauga("vacanta", "Mangalia", "sejur", 1200);
 	serv.adauga("calatorie", "Maldive", "sejur", 2000);
-	assert(serv.filtreaza_destinatie("Mamaia").size() == 1);
-	assert(serv.filtreaza_pret(1100).size() == 2);
-	assert(serv.filtreaza_pret(1500).size() == 1);
+	assert(serv.filtreaza_destinatie("Mamaia").getSize() == 1);
+	assert(serv.filtreaza_pret(1100).getSize() == 2);
+	assert(serv.filtreaza_pret(1500).getSize() == 1);
 }
 
 void test_sorteza_seervice() {

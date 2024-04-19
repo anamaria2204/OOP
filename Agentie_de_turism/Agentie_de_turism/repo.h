@@ -1,6 +1,7 @@
 #pragma once
 
 #include "domeniu.h"
+#include "VectorDinamic.h"
 #include <string>
 #include <ostream>
 #include <vector>
@@ -10,7 +11,7 @@ using std::string;
 using std::ostream;
 
 class OfertaRepo {
-	vector<Oferta> lista_oferte;
+	VectorDinamic<Oferta> lista_oferte;
 	/*
 	metoda privata verifica daca exista deja p in repository
 	*/
@@ -32,7 +33,7 @@ public:
 	sterge o oferta daca aceasta exista in lista
 	*/
 
-	void sterge(const Oferta& o);
+	void sterge(const int& pozitia);
 
 	/*
 	modifica o oferta din lista de oferte
@@ -49,7 +50,9 @@ public:
 	/*
 	returneaza toate ofertele salvate
 	*/
-	const vector<Oferta>& getAll() const noexcept;
+	VectorDinamic<Oferta> getAll() const;
+
+	~OfertaRepo() = default;
 };
 
 

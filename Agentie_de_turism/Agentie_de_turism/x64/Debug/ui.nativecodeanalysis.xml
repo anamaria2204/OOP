@@ -18,14 +18,14 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>service.h</FILENAME>
-      <LINE>38</LINE>
+      <LINE>37</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26440</DEFECTCODE>
     <DESCRIPTION>Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).</DESCRIPTION>
     <FUNCTION>OfertaService::{ctor}</FUNCTION>
     <DECORATED>??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z</DECORATED>
-    <FUNCLINE>38</FUNCLINE>
+    <FUNCLINE>37</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
@@ -46,283 +46,289 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>178</LINE>
+      <LINE>201</LINE>
       <COLUMN>16</COLUMN>
     </SFA>
     <DEFECTCODE>26823</DEFECTCODE>
     <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::srv)' (lifetime.1).</DESCRIPTION>
     <FUNCTION>UI::start</FUNCTION>
     <DECORATED>?start@UI@@QEAAXXZ</DECORATED>
-    <FUNCLINE>82</FUNCLINE>
+    <FUNCLINE>104</FUNCLINE>
     <PATH>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>82</LINE>
+        <LINE>104</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>83</LINE>
+        <LINE>105</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>106</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>84</LINE>
+        <LINE>107</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
+        <LINE>108</LINE>
         <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>86</LINE>
+        <LINE>109</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>87</LINE>
+        <LINE>110</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>88</LINE>
+        <LINE>111</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>88</LINE>
+        <LINE>111</LINE>
         <COLUMN>12</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>89</LINE>
+        <LINE>112</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>90</LINE>
+        <LINE>113</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>94</LINE>
+        <LINE>117</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>97</LINE>
+        <LINE>120</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>124</LINE>
-        <COLUMN>15</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>152</LINE>
-        <COLUMN>15</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>174</LINE>
+        <LINE>147</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>175</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>198</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>175</LINE>
+        <LINE>198</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>176</LINE>
+        <LINE>199</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>177</LINE>
+        <LINE>200</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>38</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>38</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>201</LINE>
         <COLUMN>12</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
-        <COLUMN>16</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>83</LINE>
+        <LINE>106</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>84</LINE>
+        <LINE>107</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
+        <LINE>108</LINE>
         <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>86</LINE>
+        <LINE>109</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>87</LINE>
+        <LINE>110</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>88</LINE>
+        <LINE>111</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>88</LINE>
+        <LINE>111</LINE>
         <COLUMN>12</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>89</LINE>
+        <LINE>112</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>90</LINE>
+        <LINE>113</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>94</LINE>
+        <LINE>117</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>97</LINE>
+        <LINE>120</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>124</LINE>
-        <COLUMN>15</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>152</LINE>
-        <COLUMN>15</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>174</LINE>
+        <LINE>147</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>175</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>197</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>198</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>175</LINE>
+        <LINE>198</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>176</LINE>
+        <LINE>199</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>177</LINE>
+        <LINE>200</LINE>
         <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>38</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>38</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>178</LINE>
+        <LINE>201</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
     </PATH>
@@ -331,28 +337,137 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>211</LINE>
+      <LINE>234</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>211</FUNCLINE>
+    <FUNCLINE>234</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>211</LINE>
+      <LINE>234</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX_K@Z</DECORATED>
-    <FUNCLINE>211</FUNCLINE>
+    <FUNCLINE>234</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Oferta&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VOferta@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>208</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectorDinamic&lt;Oferta&gt;::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Oferta&gt;::end</FUNCTION>
+    <DECORATED>?end@?$VectorDinamic@VOferta@@@@QEBA?AV?$IteratorVector@VOferta@@@@XZ</DECORATED>
+    <FUNCLINE>208</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>234</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Oferta&gt;::IteratorVector&lt;Oferta&gt;' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Oferta&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$IteratorVector@VOferta@@@@QEAA@AEBV?$VectorDinamic@VOferta@@@@@Z</DECORATED>
+    <FUNCLINE>234</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>245</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Oferta&gt;::element' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Oferta&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Oferta&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VOferta@@@@QEBAAEAVOferta@@XZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>250</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Oferta&gt;::next' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Oferta&gt;::next</FUNCTION>
+    <DECORATED>?next@?$IteratorVector@VOferta@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>250</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>

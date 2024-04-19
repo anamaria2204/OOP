@@ -18,14 +18,14 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>service.h</FILENAME>
-      <LINE>38</LINE>
+      <LINE>37</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26440</DEFECTCODE>
     <DESCRIPTION>Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).</DESCRIPTION>
     <FUNCTION>OfertaService::{ctor}</FUNCTION>
     <DECORATED>??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z</DECORATED>
-    <FUNCLINE>38</FUNCLINE>
+    <FUNCLINE>37</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
@@ -46,28 +46,81 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>main.cpp</FILENAME>
-      <LINE>21</LINE>
-      <COLUMN>0</COLUMN>
+      <LINE>9</LINE>
+      <COLUMN>5</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
-    <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
-    <FUNCTION>__empty_global_delete</FUNCTION>
-    <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>21</FUNCLINE>
+    <DESCRIPTION>Move 'mainSec' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
+    <FUNCTION>mainSec</FUNCTION>
+    <DECORATED>?mainSec@@YAXXZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
       <FILENAME>main.cpp</FILENAME>
-      <LINE>21</LINE>
+      <LINE>29</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6389</DEFECTCODE>
+    <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
+    <FUNCTION>__empty_global_delete</FUNCTION>
+    <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>29</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX_K@Z</DECORATED>
-    <FUNCLINE>21</FUNCLINE>
+    <FUNCLINE>29</FUNCLINE>
     <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Oferta&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$VectorDinamic@VOferta@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_de_turism\Agentie_de_turism\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
   </DEFECT>
 </DEFECTS>

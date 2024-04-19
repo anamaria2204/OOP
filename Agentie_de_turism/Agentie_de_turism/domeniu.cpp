@@ -34,9 +34,9 @@ void Oferta::set_pret(const float valoare) noexcept {
 }
 
 bool comp_denumire(const Oferta& o1, const Oferta& o2) {
-	return o1.get_denumire() < o2.get_denumire();
+	return o1.get_denumire() > o2.get_denumire();
 }
 
 bool comp_destinatie(const Oferta& o1, const Oferta& o2) {
-	return o1.get_destinatie() < o2.get_destinatie();
+	return o1.get_destinatie() > o2.get_destinatie();
 }

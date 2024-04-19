@@ -2,11 +2,13 @@
 #include "teste.h"
 #include "ui.h"
 #define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
 #include <crtdbg.h>
+#include <iostream>
 
-
-int main() {
+void mainSec() {
 	testAll();
+	cout << "Teste realizate cu succes!\n";
 	/*
 	OfertaRepo rep;
 	OfertaValidator valid;
@@ -14,7 +16,13 @@ int main() {
 	UI ui{ serv };
 	ui.start();
 	*/
-	if (_CrtDumpMemoryLeaks())
-		printf("\nMEMORY LEAKS\n");
+}
+
+int main() {
+	
+	mainSec();
+	if (_CrtDumpMemoryLeaks()) {
+		cout << "\n Memory leak\n";
+	}
 	return 0;
 }

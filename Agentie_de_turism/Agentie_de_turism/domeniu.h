@@ -53,6 +53,7 @@ public:
 			tip == other.tip &&
 			pret == other.pret);
 	}
+	Oferta() = default;
 	~Oferta() = default;
 
 };

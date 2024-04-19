@@ -12,7 +12,7 @@ void print_meniu() {
 	cout << "2. Stergere oferta\n";
 	cout << "3. Modificare oferta\n";
 	cout << "4. Cauta oferta\n";
-	cout << "5. Filtreaza oferta dupa denstinatie\n";
+	cout << "5. Filtreaza oferta dupa destinatie\n";
 	cout << "6. Filtreaza oferta dupa pret\n";
 	cout << "7. Sorteaza oferte\n";
 	cout << "8. Afiseaza lista de oferte\n";
@@ -39,9 +39,9 @@ void testAll() {
 
 }
 
-void UI::tipareste(const vector<Oferta>& oferte) {
+void UI::tipareste(VectorDinamic<Oferta> oferte) {
 	cout << "Ofertele: \n";
-	for (const auto& oferta : oferte) {
+	for (auto oferta : oferte) {
 		cout << "Denumire: " << oferta.get_denumire() << " Destinatie: " << oferta.get_destinatie()
 			<< " Tip: " << oferta.get_tip() << " Pret: " << oferta.get_pret() << "\n";
 	}
@@ -79,7 +79,30 @@ void UI::adaugaOferta() {
 	}
 }
 
+void UI::adauga_oferte() {
+	try {
+		srv.adauga("vacanta", "Brasov", "munte", 1000);
+		srv.adauga("calatorie", "Mamaia", "mare", 1000);
+		srv.adauga("vacanta", "Mangalia", "mare", 900);
+		srv.adauga("calatorie", "Timisoara", "oras", 2000);
+	}
+	catch (const ValidateException& ex) {
+		std::stringstream sout;
+		sout << ex;
+		const auto mesaj = sout.str();
+		cout << mesaj << "\n";
+	}
+	catch (const OfertaRepoException& ex) {
+		std::stringstream sout;
+		sout << ex;
+		const auto mesaj = sout.str();
+		cout << mesaj << "\n";
+	}
+	
+}
+
 void UI::start() {
+	adauga_oferte();
 	while (true) {
 		cout << "\n";
 		print_meniu();

@@ -5,21 +5,22 @@
 #include "domeniu.h"
 class UI {
 	OfertaService& srv;
+
+	//tipareste lista de oferte
+	void tipareste(VectorDinamic<Oferta> oferte);
+
+public:
 	/*
 	Citeste datele de la tastatura si adauga Pet
 	arunca exceptie daca: nu se poate salva, nu e valid
 	*/
 	void adaugaOferta();
-	/*
-	Tipareste o lista de animale la consola
-	*/
-	void tipareste(const vector<Oferta>& oferte);
-public:
 	UI(OfertaService& srv) :srv{ srv } {
 	}
 	//nu permitem copierea obiectelor
 	UI(const UI& ot) = delete;
 
+	void adauga_oferte();
 	void start();
 };
 

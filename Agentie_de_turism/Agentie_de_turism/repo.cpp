@@ -24,12 +24,9 @@ bool OfertaRepo::exist(const Oferta& o) const {
 	return false;
 }
 
-void OfertaRepo::sterge(const Oferta& o) {
-	if (exist(o)) {
-		auto it = std::find(lista_oferte.begin(), lista_oferte.end(), o);
-
-		if (it != lista_oferte.end())
-			lista_oferte.erase(it);
+void OfertaRepo::sterge(const int& pozitia) {
+	if (exist(lista_oferte[pozitia])) {
+		lista_oferte.erase(pozitia);
 	}
 	else
 		throw OfertaRepoException("Nu exista oferta dorita!");
@@ -39,7 +36,7 @@ void OfertaRepo::sterge(const Oferta& o) {
 void OfertaRepo::modifica(const Oferta& o, const string& denumire_noua, const string& destinatie_noua,
 	const string& tip_nou, const float pret_nou) {
 	int ok = 0;
-	for (int i = 0; i < lista_oferte.size(); i++) {
+	for (int i = 0; i < lista_oferte.getSize(); i++) {
 		if (lista_oferte[i].get_denumire() == o.get_denumire() &&
 			lista_oferte[i].get_destinatie() == o.get_destinatie() &&
 			lista_oferte[i].get_tip() == o.get_tip() &&
@@ -64,7 +61,7 @@ const Oferta& OfertaRepo::cauta(const string& denumire_data, const string& desti
 	throw OfertaRepoException("Nu exista oferta cautat!");
 }
 
-const vector<Oferta>& OfertaRepo::getAll() const noexcept {
+VectorDinamic<Oferta> OfertaRepo::getAll() const {
 	return lista_oferte;
 }
 

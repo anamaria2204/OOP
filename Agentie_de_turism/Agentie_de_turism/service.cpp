@@ -17,9 +17,9 @@ void OfertaService::adauga(const string& denumire, const string& destinatie, con
 void OfertaService::stergere(const int pozitie) {
 	const auto& oferte = repo.getAll();
 	int ok = 0;
-	for (int i = 0; i < oferte.size(); i++) {
+	for (int i = 0; i < oferte.getSize(); i++) {
 		if (i == pozitie) {
-			repo.sterge(oferte[i]);
+			repo.sterge(i);
 			ok = 1;
 		}
 	}
@@ -32,7 +32,7 @@ void OfertaService::modificare(int pozitie, const string& denumire_noua, const s
 	const string& tip_nou, const float pret_nou) {
 	const auto& oferte = repo.getAll();
 	int ok = 0;
-	for (int i = 0; i < oferte.size(); i++) {
+	for (int i = 0; i < oferte.getSize(); i++) {
 		if (i == pozitie) {
 			repo.modifica(oferte[i], denumire_noua, destinatie_noua, tip_nou, pret_nou);
 			ok = 1;
@@ -48,8 +48,8 @@ const Oferta& OfertaService::cautare(const string& denumire_data,
 	return repo.cauta(denumire_data, destinatie_data);
 }
 
-vector<Oferta> OfertaService::filtreaza(function<bool(const Oferta&)> fct) {
-	vector<Oferta> rez;
+VectorDinamic<Oferta> OfertaService::filtreaza(function<bool(const Oferta&)> fct) {
+	VectorDinamic<Oferta> rez;
 	for (const auto& pet : repo.getAll()) {
 		if (fct(pet)) {
 			rez.push_back(pet);
@@ -58,22 +58,22 @@ vector<Oferta> OfertaService::filtreaza(function<bool(const Oferta&)> fct) {
 	return rez;
 }
 
-vector<Oferta> OfertaService::filtreaza_destinatie(string destinatie) {
+VectorDinamic<Oferta> OfertaService::filtreaza_destinatie(string destinatie) {
 	return filtreaza([destinatie](const Oferta& o) {
 		return o.get_destinatie() == destinatie;
-	});
+		});
 }
 
-vector<Oferta> OfertaService::filtreaza_pret(float pret) {
+VectorDinamic<Oferta> OfertaService::filtreaza_pret(float pret) {
 	return filtreaza([pret](const Oferta& o) {
 		return o.get_pret() > pret;
 		});
 }
 
-vector<Oferta> OfertaService::generalSort(bool (*maiMicF)(const Oferta&, const Oferta&)) {
-	vector<Oferta> copie{ repo.getAll() };
-	for (size_t i = 0; i < copie.size(); i++) {
-		for (size_t j = i + 1; j < copie.size(); j++) {
+VectorDinamic<Oferta> OfertaService::generalSort(bool (*maiMicF)(const Oferta&, const Oferta&)) {
+	VectorDinamic<Oferta> copie = repo.getAll();
+	for (int i = 0; i < copie.getSize(); i++) {
+		for (int j = i + 1; j < copie.getSize(); j++) {
 			if (maiMicF(copie[i], copie[j]) == 1) {
 				Oferta aux = copie[i];
 				copie[i] = copie[j];
@@ -84,19 +84,15 @@ vector<Oferta> OfertaService::generalSort(bool (*maiMicF)(const Oferta&, const O
 	return copie;
 }
 
-vector<Oferta> OfertaService::sorteaza_denumire() {
-	auto copie = repo.getAll();
-	std::sort(copie.begin(), copie.end(), comp_denumire);
-	return copie;
+VectorDinamic<Oferta> OfertaService::sorteaza_denumire() {
+	return generalSort(comp_denumire);
 }
 
-vector<Oferta> OfertaService::sorteaza_destinatie() {
-	auto copie = repo.getAll();
-	std::sort(copie.begin(), copie.end(), comp_destinatie);
-	return copie;
+VectorDinamic<Oferta> OfertaService::sorteaza_destinatie() {
+	return generalSort(comp_destinatie);
 }
 
-vector<Oferta> OfertaService::sorteaza_tip_pret() {
+VectorDinamic<Oferta> OfertaService::sorteaza_tip_pret() {
 	return generalSort([](const Oferta& o1, const Oferta& o2) {
 		if (o1.get_tip() == o2.get_tip()) {
 			return o1.get_pret() > o2.get_pret();

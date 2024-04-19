@@ -139,6 +139,7 @@
     <ClInclude Include="teste.h" />
     <ClInclude Include="ui.h" />
     <ClInclude Include="validator.h" />
+    <ClInclude Include="VectorDinamic.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="domeniu.cpp" />

@@ -12,10 +12,9 @@ using std::function;
 
 
 class OfertaService {
-	
+
 	OfertaRepo& repo;
 	OfertaValidator& val;
-	vector<vector<Oferta>> undoL;
 
 	/*
 	Sorteaza lista de oferte
@@ -24,25 +23,27 @@ class OfertaService {
 			  - poate fi functie lambda (care nu capteaza nimic in capture list)
 	 returneaza o lista sortata dupa criteriu dat ca paramatru
 	*/
-	vector<Oferta> generalSort(bool (*maiMicF)(const Oferta&, const Oferta&));
+	VectorDinamic<Oferta> generalSort(bool (*maiMicF)(const Oferta&, const Oferta&));
 
-	
+
 	/*
 	Filtreaza lista de oferte oferind o copie a lisei cu elementele dorite
-	@param - fct functie 
+	@param - fct functie
 	@return - lista noua cu ofertele filtrate
 	*/
-	vector<Oferta> filtreaza(function<bool(const Oferta&)> fct);
+	VectorDinamic<Oferta> filtreaza(function<bool(const Oferta&)> fct);
 
 public:
 	OfertaService(OfertaRepo& repo, OfertaValidator& val) :repo{ repo }, val{ val } {
 	}
 	//nu permitem copierea de obiecte PetStore
 	OfertaService(const OfertaService& ot) = delete;
+
+	OfertaService() = default;
 	/*
 	 returneaza toate ofertele in ordinea in care au fost adaugate
 	*/
-	const vector<Oferta>& getAll() noexcept {
+	VectorDinamic<Oferta> getAll(){
 		return repo.getAll();
 	}
 	/*
@@ -77,32 +78,34 @@ public:
 	@param - destinatie
 	@return - lista de oferte filtrate
 	*/
-	vector<Oferta> filtreaza_destinatie(string destinatie);
+	VectorDinamic<Oferta> filtreaza_destinatie(string destinatie);
 
 	/*
 	Filtreaza lista de oferte dupa pret
 	@param - pret
 	@return - lista de oferte filtrate
 	*/
-	vector<Oferta> filtreaza_pret(float pret);
+	VectorDinamic<Oferta> filtreaza_pret(float pret);
 
 	/*
 	Sorteaza lista de oferte dupa denumire
 	@return - lista sortata
 	*/
-	vector<Oferta> sorteaza_denumire();
+	VectorDinamic<Oferta> sorteaza_denumire();
 
 	/*
 	Sorteaza lista de oferte dupa destinatie
 	@return - lista sortata
 	*/
-	vector<Oferta> sorteaza_destinatie();
+	VectorDinamic<Oferta> sorteaza_destinatie();
 
 	/*
 	Sorteaza lista de oferte dupa pret si tip
 	@return - lista sortata
 	*/
-	vector<Oferta> sorteaza_tip_pret();
+	VectorDinamic<Oferta> sorteaza_tip_pret();
+
+	~OfertaService() = default;
 };
 
 class OfertaServiceException {
