@@ -12,7 +12,7 @@ void print_meniu() {
 	cout << "2. Stergere oferta\n";
 	cout << "3. Modificare oferta\n";
 	cout << "4. Cauta oferta\n";
-	cout << "5. Filtreaza oferta dupa denumire\n";
+	cout << "5. Filtreaza oferta dupa denstinatie\n";
 	cout << "6. Filtreaza oferta dupa pret\n";
 	cout << "7. Sorteaza oferte\n";
 	cout << "8. Afiseaza lista de oferte\n";
@@ -34,6 +34,9 @@ void testAll() {
 	test_sterge_service();
 	test_modifica_service();
 	test_cauta_service();
+	test_filtreaza_service();
+	test_sorteza_seervice();
+
 }
 
 void UI::tipareste(const vector<Oferta>& oferte) {
@@ -166,6 +169,33 @@ void UI::start() {
 				sout << ex;
 				const auto mesaj = sout.str();
 				cout << mesaj << "\n";
+			}
+		}
+		else if (cmd == 5) {
+			string destinatie;
+			cout << "Destinatie: ";
+			cin >> destinatie;
+			tipareste(srv.filtreaza_destinatie(destinatie));
+		}
+		else if (cmd == 6) {
+			float pret;
+			cout << "Pret: ";
+			cin >> pret;
+			tipareste(srv.filtreaza_pret(pret));
+		}
+		else if (cmd == 7) {
+			int optiune;
+			cout << "Ofertele pot fi sortate dupa: 1 - denumire, 2 - destinatie, 3 - tip+pret\n";
+			cout << "Optiunea dorita de filtrare este: ";
+			cin >> optiune;
+			if (optiune == 1) {
+				tipareste(srv.sorteaza_denumire());
+			}
+			else if (optiune == 2) {
+				tipareste(srv.sorteaza_destinatie());
+			}
+			else if (optiune == 3) {
+				tipareste(srv.sorteaza_tip_pret());
 			}
 		}
 		else if (cmd == 8) {

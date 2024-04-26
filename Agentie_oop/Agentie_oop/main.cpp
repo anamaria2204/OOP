@@ -3,13 +3,13 @@
 #include "ui.h"
 
 int main() {
-	//testAll();
-	///*
+	testAll();
+	/*
 	OfertaRepo rep;
 	OfertaValidator valid;
 	OfertaService serv{ rep, valid };
 	UI ui{ serv };
 	ui.start();
-	//*/
+	*/
 	return 0;
 }

@@ -54,7 +54,7 @@ void test_validator() {
 
 void test_adauga_repo() {
 	OfertaRepo repo;
-	repo.store(Oferta { "calatorie", "Maldive", "sejur", 2000 });
+	repo.store(Oferta{ "calatorie", "Maldive", "sejur", 2000 });
 
 	assert(repo.getAll().size() == 1);
 	try {
@@ -196,4 +196,35 @@ void test_cauta_service() {
 	catch (const OfertaRepoException&) {
 		assert(true);
 	}
+}
+
+void test_filtreaza_service() {
+	OfertaRepo rep;
+	OfertaValidator val;
+	OfertaService serv{ rep, val };
+	serv.adauga("vacanta", "Mamaia", "sejur", 1000);
+	serv.adauga("vacanta", "Mangalia", "sejur", 1200);
+	serv.adauga("calatorie", "Maldive", "sejur", 2000);
+	assert(serv.filtreaza_destinatie("Mamaia").size() == 1);
+	assert(serv.filtreaza_pret(1100).size() == 2);
+	assert(serv.filtreaza_pret(1500).size() == 1);
+}
+
+void test_sorteza_seervice() {
+	OfertaRepo rep;
+	OfertaValidator val;
+	OfertaService serv{ rep, val };
+	serv.adauga("vacanta", "Brasov", "munte", 1000);
+	serv.adauga("calatorie", "Mamaia", "mare", 1000);
+	serv.adauga("vacanta", "Mangalia", "mare", 900);
+	serv.adauga("calatorie", "Timisoara", "oras", 2000);
+	auto list_den = serv.sorteaza_denumire()[0];
+	assert(list_den.get_denumire() == "calatorie");
+
+	auto list_dest = serv.sorteaza_destinatie()[0];
+	assert(list_dest.get_destinatie() == "Brasov");
+
+	auto list_pret_tip = serv.sorteaza_tip_pret()[0];
+	assert(list_pret_tip.get_destinatie() == "Mangalia");
+
 }

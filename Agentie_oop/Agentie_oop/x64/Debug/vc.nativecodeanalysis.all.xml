@@ -41,14 +41,14 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>service.h</FILENAME>
-      <LINE>19</LINE>
+      <LINE>38</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26440</DEFECTCODE>
     <DESCRIPTION>Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).</DESCRIPTION>
     <FUNCTION>OfertaService::{ctor}</FUNCTION>
     <DECORATED>??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z</DECORATED>
-    <FUNCLINE>19</FUNCLINE>
+    <FUNCLINE>38</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
@@ -197,40 +197,261 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>service.cpp</FILENAME>
-      <LINE>21</LINE>
+      <LINE>22</LINE>
       <COLUMN>23</COLUMN>
     </SFA>
     <DEFECTCODE>26446</DEFECTCODE>
     <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
     <FUNCTION>OfertaService::stergere</FUNCTION>
     <DECORATED>?stergere@OfertaService@@QEAAXH@Z</DECORATED>
-    <FUNCLINE>16</FUNCLINE>
+    <FUNCLINE>17</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>service.cpp</FILENAME>
-      <LINE>36</LINE>
+      <LINE>37</LINE>
       <COLUMN>25</COLUMN>
     </SFA>
     <DEFECTCODE>26446</DEFECTCODE>
     <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
     <FUNCTION>OfertaService::modificare</FUNCTION>
     <DECORATED>?modificare@OfertaService@@QEAAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00M@Z</DECORATED>
-    <FUNCLINE>30</FUNCLINE>
+    <FUNCLINE>31</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>service.cpp</FILENAME>
-      <LINE>54</LINE>
+      <LINE>77</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'maiMicF' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'maiMicF' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>OfertaService::generalSort</FUNCTION>
+    <DECORATED>?generalSort@OfertaService@@AEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@P6A_NAEBVOferta@@0@Z@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26822</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a null pointer 'nullptr' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>OfertaService::sorteaza_tip_pret::&lt;lambda_1&gt;::&lt;lambda_invoker_cdecl&gt;</FUNCTION>
+    <DECORATED>?&lt;lambda_invoker_cdecl&gt;@&lt;lambda_1&gt;@?1??sorteaza_tip_pret@OfertaService@@QEAA?AV?$vector@VOferta@@V?$allocator@VOferta@@@std@@@std@@XZ@SA@AEBVOferta@@0@Z</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>service.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>112</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>54</FUNCLINE>
+    <FUNCLINE>112</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
@@ -314,57 +535,117 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>teste.cpp</FILENAME>
-      <LINE>200</LINE>
+      <LINE>221</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>224</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>227</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>221</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>224</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>227</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>test_sorteza_seervice</FUNCTION>
+    <DECORATED>?test_sorteza_seervice@@YAXXZ</DECORATED>
+    <FUNCLINE>213</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+      <FILENAME>teste.cpp</FILENAME>
+      <LINE>231</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>200</FUNCLINE>
+    <FUNCLINE>231</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>173</LINE>
+      <LINE>178</LINE>
       <COLUMN>16</COLUMN>
     </SFA>
     <DEFECTCODE>26823</DEFECTCODE>
     <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::srv)' (lifetime.1).</DESCRIPTION>
     <FUNCTION>UI::start</FUNCTION>
     <DECORATED>?start@UI@@QEAAXXZ</DECORATED>
-    <FUNCLINE>79</FUNCLINE>
+    <FUNCLINE>82</FUNCLINE>
     <PATH>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>79</LINE>
+        <LINE>82</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>80</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>81</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>82</LINE>
-        <COLUMN>13</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
         <LINE>83</LINE>
-        <COLUMN>7</COLUMN>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -376,31 +657,43 @@
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>85</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
-        <COLUMN>12</COLUMN>
+        <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>86</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>87</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>88</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>91</LINE>
-        <COLUMN>15</COLUMN>
+        <LINE>88</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -411,62 +704,86 @@
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>121</LINE>
+        <LINE>97</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>149</LINE>
+        <LINE>124</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>171</LINE>
+        <LINE>152</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>172</LINE>
+        <LINE>174</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>176</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>178</LINE>
         <COLUMN>12</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>80</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>81</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>82</LINE>
-        <COLUMN>13</COLUMN>
+        <LINE>178</LINE>
+        <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>83</LINE>
-        <COLUMN>7</COLUMN>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -478,31 +795,43 @@
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>85</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
-        <COLUMN>12</COLUMN>
+        <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>86</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>87</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>88</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>91</LINE>
-        <COLUMN>15</COLUMN>
+        <LINE>88</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -513,31 +842,67 @@
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>121</LINE>
+        <LINE>97</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>149</LINE>
+        <LINE>124</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>171</LINE>
+        <LINE>152</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>172</LINE>
+        <LINE>174</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>176</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
     </PATH>
@@ -545,14 +910,14 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>181</LINE>
+      <LINE>211</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>181</FUNCLINE>
+    <FUNCLINE>211</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>

@@ -18,14 +18,14 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>service.h</FILENAME>
-      <LINE>19</LINE>
+      <LINE>38</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26440</DEFECTCODE>
     <DESCRIPTION>Function 'OfertaService::OfertaService' can be declared 'noexcept' (f.6).</DESCRIPTION>
     <FUNCTION>OfertaService::{ctor}</FUNCTION>
     <DECORATED>??0OfertaService@@QEAA@AEAVOfertaRepo@@AEAVOfertaValidator@@@Z</DECORATED>
-    <FUNCLINE>19</FUNCLINE>
+    <FUNCLINE>38</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
@@ -46,44 +46,26 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>173</LINE>
+      <LINE>178</LINE>
       <COLUMN>16</COLUMN>
     </SFA>
     <DEFECTCODE>26823</DEFECTCODE>
     <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::srv)' (lifetime.1).</DESCRIPTION>
     <FUNCTION>UI::start</FUNCTION>
     <DECORATED>?start@UI@@QEAAXXZ</DECORATED>
-    <FUNCLINE>79</FUNCLINE>
+    <FUNCLINE>82</FUNCLINE>
     <PATH>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>79</LINE>
+        <LINE>82</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>80</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>81</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>82</LINE>
-        <COLUMN>13</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
         <LINE>83</LINE>
-        <COLUMN>7</COLUMN>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -95,31 +77,43 @@
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>85</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
-        <COLUMN>12</COLUMN>
+        <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>86</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>87</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>88</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>91</LINE>
-        <COLUMN>15</COLUMN>
+        <LINE>88</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -130,62 +124,86 @@
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>121</LINE>
+        <LINE>97</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>149</LINE>
+        <LINE>124</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>171</LINE>
+        <LINE>152</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>172</LINE>
+        <LINE>174</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>176</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>178</LINE>
         <COLUMN>12</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>80</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>81</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>82</LINE>
-        <COLUMN>13</COLUMN>
+        <LINE>178</LINE>
+        <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>83</LINE>
-        <COLUMN>7</COLUMN>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -197,31 +215,43 @@
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>85</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>85</LINE>
-        <COLUMN>12</COLUMN>
+        <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>86</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>87</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>88</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>91</LINE>
-        <COLUMN>15</COLUMN>
+        <LINE>88</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
@@ -232,31 +262,67 @@
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>121</LINE>
+        <LINE>97</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>149</LINE>
+        <LINE>124</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>171</LINE>
+        <LINE>152</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>172</LINE>
+        <LINE>174</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>176</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
-        <LINE>173</LINE>
+        <LINE>177</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>178</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
     </PATH>
@@ -265,28 +331,28 @@
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>181</LINE>
+      <LINE>211</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX@Z</DECORATED>
-    <FUNCLINE>181</FUNCLINE>
+    <FUNCLINE>211</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\anama\source\repos\Agentie_oop\Agentie_oop\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
-      <LINE>181</LINE>
+      <LINE>211</LINE>
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>6389</DEFECTCODE>
     <DESCRIPTION>Move '__empty_global_delete' to anonymous namespace or put a forward declaration in a common header included in this file.</DESCRIPTION>
     <FUNCTION>__empty_global_delete</FUNCTION>
     <DECORATED>?__empty_global_delete@@YAXPEAX_K@Z</DECORATED>
-    <FUNCLINE>181</FUNCLINE>
+    <FUNCLINE>211</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>

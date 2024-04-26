@@ -18,3 +18,5 @@ void test_adauga_service();
 void test_sterge_service();
 void test_modifica_service();
 void test_cauta_service();
+void test_filtreaza_service();
+void test_sorteza_seervice();

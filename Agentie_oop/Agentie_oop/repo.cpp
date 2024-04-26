@@ -60,7 +60,7 @@ const Oferta& OfertaRepo::cauta(const string& denumire_data, const string& desti
 	for (const auto& o : lista_oferte) {
 		if (o.get_denumire() == denumire_data && o.get_destinatie() == destinatie_data)
 			return o;
-		}
+	}
 	throw OfertaRepoException("Nu exista oferta cautat!");
 }
 

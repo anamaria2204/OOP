@@ -46,7 +46,7 @@ public:
 	Oferta(const Oferta& ot) : denumire{ ot.denumire }, destinatie{ ot.destinatie }, tip{ ot.tip }, pret{ ot.pret } {
 		cout << "Hi" << '\n';
 	}
-	
+
 	bool operator==(const Oferta& other) const noexcept {
 		return (denumire == other.denumire &&
 			destinatie == other.destinatie &&
@@ -54,7 +54,7 @@ public:
 			pret == other.pret);
 	}
 	~Oferta() = default;
-	
+
 };
 
 /*

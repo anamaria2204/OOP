@@ -22,7 +22,7 @@ public:
 
 	/*
 	Salvare oferta
-	arunca exceptie daca mai exista o oferta cu aceasi denumire 
+	arunca exceptie daca mai exista o oferta cu aceasi denumire
 	si destinatie
 	*/
 	void store(const Oferta& o);
@@ -38,7 +38,7 @@ public:
 	modifica o oferta din lista de oferte
 	*/
 	void modifica(const Oferta& o, const string& denumire_noua, const string& destinatie_noua,
-	const string& tip_nou, const float pret_nou);
+		const string& tip_nou, const float pret_nou);
 
 	/*
 	cauta o oferta in lista de oferte cu denumirea si destinatia data
