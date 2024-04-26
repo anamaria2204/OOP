@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class VectorDinamic&lt;class Pet&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VPet@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VPet@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VPet@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorDinamic@VPet@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>108</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::=</FUNCTION>
+    <DECORATED>??4?$VectorDinamic@VPet@@@@QEAAAEAV0@AEBV0@@Z</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectorDinamic&lt;Pet&gt;::get' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::get</FUNCTION>
+    <DECORATED>?get@?$VectorDinamic@VPet@@@@QEBAAEAVPet@@H@Z</DECORATED>
+    <FUNCLINE>118</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::get</FUNCTION>
+    <DECORATED>?get@?$VectorDinamic@VPet@@@@QEBAAEAVPet@@H@Z</DECORATED>
+    <FUNCLINE>118</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectorDinamic&lt;Pet&gt;::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::end</FUNCTION>
+    <DECORATED>?end@?$VectorDinamic@VPet@@@@QEBA?AV?$IteratorVector@VPet@@@@XZ</DECORATED>
+    <FUNCLINE>138</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::redimensionare</FUNCTION>
+    <DECORATED>?redimensionare@?$VectorDinamic@VPet@@@@AEAAXXZ</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26403</DEFECTCODE>
+    <DESCRIPTION>Reset or explicitly delete an owner&lt;T&gt; pointer 'nou' (r.3).</DESCRIPTION>
+    <FUNCTION>VectorDinamic&lt;Pet&gt;::redimensionare</FUNCTION>
+    <DECORATED>?redimensionare@?$VectorDinamic@VPet@@@@AEAAXXZ</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+        <FILENAME>VectorDinamicTemplate.h</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+        <FILENAME>VectorDinamicTemplate.h</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+        <FILENAME>VectorDinamicTemplate.h</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+        <FILENAME>VectorDinamicTemplate.h</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+        <FILENAME>VectorDinamicTemplate.h</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Pet&gt;::IteratorVector&lt;Pet&gt;' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$IteratorVector@VPet@@@@QEAA@AEBV?$VectorDinamic@VPet@@@@@Z</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>175</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Pet&gt;::element' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Pet&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VPet@@@@QEBAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>176</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Pet&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VPet@@@@QEBAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\</FILEPATH>
+      <FILENAME>VectorDinamicTemplate.h</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Pet&gt;::next' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Pet&gt;::next</FUNCTION>
+    <DECORATED>?next@?$IteratorVector@VPet@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>180</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,2 @@
+C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\x64\Debug\VectorDinamicCPP.exe.lastcodeanalysissucceeded
+C:\Users\anama\Desktop\cs_ubb\cs_ubb - an I - sem II\oop\VectorDinamicCPP\VectorDinamicCPP\x64\Debug\NativeCodeAnalysis.read.1.tlog
